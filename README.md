@@ -16,7 +16,9 @@ We have chosen to load our final data into an SQL database.
 Extracting the unemployment dataset was fairly simple. The data was in CSV format, so I created a Jupyter Notebook file and loaded the CSV into it in order to prepare the data for cleaning.
 
 ## Transform
-As previously stated, the unemployment data included figures from 2000-2019. In order to prep the data for inclusion in our SQL database, I used the Jupyter Notebook interface to drop the majority of the columns from this dataset so that we only have relevant data from 2019. I removed 87 irrelevant columns from the dataset. The data was very clean, so there was minimal cleaning to do otherwise.
+- Unemployment data
+  -	As previously stated, the unemployment data included figures from 2000-2019. In order to prep the data for inclusion in our SQL database, I used the Jupyter Notebook interface to drop the majority of the columns from this dataset so that we only have relevant data from 2019. 
+  -	I removed 87 irrelevant columns from the dataset. The data was very clean, so there was minimal cleaning to do otherwise.
 
 - COVID-19 data
   -	The “geoid” column, which contained “USA-#####” values, was split on the “-” and data was stored in two new columns. The column containing “USA” values was dropped and the column containing numerical values was stored as “FIPS_Code.” The FIPS_Code column was used to merge with the other two datasets. 
