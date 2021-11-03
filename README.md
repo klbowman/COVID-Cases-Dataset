@@ -1,7 +1,7 @@
 # COVID-19, education, and unemployment dataset
 
 ## Proposal
-For our project, we will set up a pipeline that will connect a United States COVID-19 case dataset, a United States education attainment level dataset, and a United States unemployment dataset. We will use county-level COVID case data provided by the New York Times public GitHub, along with county-level unemployment data from Kaggle.com and education data procured from the USDA Economic Research Service. The COVID-19 dataset (CSV) has 832,607 rows, we will clean by combining rows from 2020 and sorting by county. The education data set has 48 columns and 3284 rows, we will select only columns that compare % education standard by county. The unemployment dataset contains 3276 rows and 93 columns. The data included in this dataset is from 2000-2020, so we will have to drop a significant amount of columns from this dataset so that we only have relevant data from 2020.
+For our project, we will set up a pipeline that will connect a United States COVID-19 case dataset, a United States education attainment level dataset, and a United States unemployment dataset. We will use county-level COVID case data provided by the New York Times public GitHub, along with county-level unemployment data from Kaggle.com and education data procured from the USDA Economic Research Service. The COVID-19 dataset (CSV) has 832,607 rows, we will clean by combining rows from 2020 and sorting by county. The education data set has 48 columns and 3284 rows, we will select only columns that compare % education standard by county. The unemployment dataset contains 3276 rows and 93 columns. The data included in this dataset is from 2000-2019, so we will have to drop a significant amount of columns from this dataset so that we only have relevant data from 2019.
 We have chosen to load our final data into an SQL database.
 
 ## Data Sources
@@ -16,7 +16,7 @@ We have chosen to load our final data into an SQL database.
 Extracting the unemployment dataset was fairly simple. The data was in CSV format, so I created a Jupyter Notebook file and loaded the CSV into it in order to prepare the data for cleaning.
 
 ## Transform
-As previously stated, the unemployment data included figures from 2000-2020. In order to prep the data for inclusion in our SQL database, I used the Jupyter Notebook interface to drop the majority of the columns from this dataset so that we only have relevant data from 2020. The data was very clean, so there was minimal cleaning to do otherwise.
+As previously stated, the unemployment data included figures from 2000-2019. In order to prep the data for inclusion in our SQL database, I used the Jupyter Notebook interface to drop the majority of the columns from this dataset so that we only have relevant data from 2019. I removed 87 irrelevant columns from the dataset. The data was very clean, so there was minimal cleaning to do otherwise.
 
 - COVID-19 data
   -	The “geoid” column, which contained “USA-#####” values, was split on the “-” and data was stored in two new columns. The column containing “USA” values was dropped and the column containing numerical values was stored as “FIPS_Code.” The FIPS_Code column was used to merge with the other two datasets. 
