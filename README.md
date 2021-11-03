@@ -35,4 +35,7 @@ Extracting the datasets was fairly simple. The data was in CSV format, so we cre
 We created a local SQL database called "Project 2." Within this database, we created three tables and imported our cleaned dataframes from Pandas, assigning the FIPS_Code as the primary key in each table.
 
 We chose this topic because it was something that we felt was topical, and general enough that we might be able to build on in the future with additional datasets. Additionally, we feel that if we were to dig a bit more into the data, we could extrapolate some trends from our final dataset.
+
+![image](https://user-images.githubusercontent.com/74067302/140006516-782eb396-fc9a-480e-99ad-94799a18912b.png)
+
   
