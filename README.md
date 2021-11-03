@@ -16,6 +16,7 @@ We have chosen to load our final data into an SQL database.
 Extracting the unemployment dataset was fairly simple. The data was in CSV format, so I created a Jupyter Notebook file and loaded the CSV into it in order to prepare the data for cleaning.
 
 ## Transform
+As previously stated, the unemployment data included figures from 2000-2020. In order to prep the data for inclusion in our SQL database, I used the Jupyter Notebook interface to drop the majority of the columns from this dataset so that we only have relevant data from 2020. The data was very clean, so there was minimal cleaning to do otherwise.
 
 ## Load
   
