@@ -32,8 +32,7 @@ Extracting the datasets was fairly simple. The data was in CSV format, so we cre
     -	Columns with percent of adults with less than a high school diploma, only a high school diploma, comploeted some college, and completed a bachelor's degree or high from 2015-2019 were kept.
 
 ## Load
-We created a local SQL database called "Project 2." Within this database, we created three tables and imported our cleaned dataframes from Pandas, assinging the FIPS_Code as the primary key in each table.
+We created a local SQL database called "Project 2." Within this database, we created three tables and imported our cleaned dataframes from Pandas, assigning the FIPS_Code as the primary key in each table.
 
-![image](https://user-images.githubusercontent.com/74067302/140006437-d943a1f7-0576-4fc2-8128-35d8f76a4fb6.png)
-
+We chose this topic because it was something that we felt was topical, and general enough that we might be able to build on in the future with additional datasets. Additionally, we feel that if we were to dig a bit more into the data, we could extrapolate some trends from our final dataset.
   
