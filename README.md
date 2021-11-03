@@ -13,6 +13,7 @@ We have chosen to load our final data into an SQL database.
   - "USA Unemployment & Education Level" Kaggle.com. Access date: October 30, 2021. https://www.kaggle.com/valbauman/student-engagement-online-learning-supplement/version/3?select=unemployment.csv
 
 ## Extract
+Extracting the unemployment dataset was fairly simple. The data was in CSV format, so I created a Jupyter Notebook file and loaded the CSV into it.
 
 ## Transform
 
