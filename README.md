@@ -15,7 +15,7 @@ We have chosen to load our final data into an SQL database.
 ## Extract
 Extracting the unemployment dataset was fairly simple. The data was in CSV format, so I created a Jupyter Notebook file and loaded the CSV into it in order to prepare the data for cleaning.
 
--COVID data
+- COVID-19 data
   -	The “geoid” column, which contained “USA-#####” values, was split on the “-” and data was stored in two new columns. The column containing “USA” values was dropped and the column containing numerical values was stored as “FIPS_Code.” The FIPS_Code column was used to merge with the other two datasets. 
   -	The “FIPS_Code” column data type was converted from object to integer to prepare for merging. 
   -	The “county” and “state” columns were converted from object to string for the groupby function
