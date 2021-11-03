@@ -22,9 +22,9 @@ Extracting the unemployment dataset was fairly simple. The data was in CSV forma
   -	The DataFrame was grouped by “FIPS_Code” and the aggregate function was used to store the first county and state name of each group, and to calculate the sum of average cases and average depths per 100k (average deaths and average cases columns were dropped in this step)
   -	The index was reset before exporting the cleaned DataFrame as a csv file
  - Education data
-  -	This dataset was transformed from 48 columns to 6 columns
-  -	FIPS Code and state columns were kept for merging
-  -	Columns with percent of adults with less than a high school diploma, only a high school diploma, comploeted some college, and completed a bachelor's degree or high from 2015-2019 were kept.
+    -	This dataset was transformed from 48 columns to 6 columns
+    -	FIPS Code and state columns were kept for merging
+    -	Columns with percent of adults with less than a high school diploma, only a high school diploma, comploeted some college, and completed a bachelor's degree or high from 2015-2019 were kept.
 
 
 ## Transform
