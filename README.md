@@ -1,18 +1,12 @@
-# COVID-19, education, and unemployment dataset
+# ETL Pipeline: COVID-19, education, and unemployment dataset
 
-## Proposal
-For our project, we will set up a pipeline that will connect a United States COVID-19 case dataset, a United States education attainment level dataset, and a United States unemployment dataset. We will use county-level COVID case data provided by the New York Times public GitHub, along with county-level unemployment data from Kaggle.com and education data procured from the USDA Economic Research Service. The COVID-19 dataset (CSV) has 832,607 rows, we will clean by combining rows from 2020 and sorting by county. The education data set has 48 columns and 3284 rows, we will select only columns that compare % education standard by county. The unemployment dataset contains 3276 rows and 93 columns. The data included in this dataset is from 2000-2019, so we will have to drop a significant amount of columns from this dataset so that we only have relevant data from 2019.
-We have chosen to load our final data into an SQL database.
+ETL pipeline to clean, merge, and export data into a SQL database. 
 
-## Data Sources
-- COVID-19 
-  - "The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved [Insert Date Here], from https://github.com/nytimes/covid-19-data." (CSV) 
-- Education
-  -  "County-level Data Sets." USDA Economic Research Service, US Department of Agriculture. Access date: Sept 8, 2021. URL: https://www.ers.usda.gov/data-products/county-level-data-sets/ (CSV file)
-- Unemployment
-  - "USA Unemployment & Education Level" Kaggle.com. Access date: October 30, 2021. https://www.kaggle.com/valbauman/student-engagement-online-learning-supplement/version/3?select=unemployment.csv
+## Description
 
 ## Extract
+Datasets on COVID-19 positivity and death rates, education levels, and unemployment rates in the United States were 
+
 Extracting the datasets was fairly simple. The data was in CSV format, so we created a Jupyter Notebook file and loaded the CSV files into it in order to prepare the data for cleaning.
 
 ## Transform
@@ -37,5 +31,13 @@ We created a local SQL database called "Project 2." Within this database, we cre
 We chose this topic because it was something that we felt was topical, and general enough that we might be able to build on in the future with additional datasets. Additionally, we feel that if we were to dig a bit more into the data, we could extrapolate some trends from our final dataset.
 
 ![image](https://user-images.githubusercontent.com/74067302/140006516-782eb396-fc9a-480e-99ad-94799a18912b.png)
+
+## Data Sources
+- COVID-19 
+  - "The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved [Insert Date Here], from https://github.com/nytimes/covid-19-data." (CSV) 
+- Education
+  -  "County-level Data Sets." USDA Economic Research Service, US Department of Agriculture. Access date: Sept 8, 2021. URL: https://www.ers.usda.gov/data-products/county-level-data-sets/ (CSV file)
+- Unemployment
+  - "USA Unemployment & Education Level" Kaggle.com. Access date: October 30, 2021. https://www.kaggle.com/valbauman/student-engagement-online-learning-supplement/version/3?select=unemployment.csv
 
   
