@@ -12,9 +12,10 @@ Datasets on COVID-19 positivity and death rates, education levels, and unemploym
     -	The DataFrame was grouped by “FIPS_Code” and the aggregate function was used to store the first county and state name of each group, and to calculate the sum of average cases and average depths per 100k (average deaths and average cases columns were dropped in this step)
     -	The index was reset before exporting the cleaned DataFrame as a csv file
 
-Cleaned and merged data was exported into three tables in a SQL database.
-
-![image](https://user-images.githubusercontent.com/74067302/140006516-782eb396-fc9a-480e-99ad-94799a18912b.png)
+Cleaned and merged data was exported into three tables in a SQL database, shown in the entity relationship diagram below.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/140006516-782eb396-fc9a-480e-99ad-94799a18912b.png" alt="Dashboard Image"/>
+</p>
 
 ## Getting Started
 
@@ -23,18 +24,18 @@ Cleaned and merged data was exported into three tables in a SQL database.
 * Jupyter Notebook
 * Pandas
 * PostgreSQL
+* SQL Alchemy 
 
 ### Installing
 
 * Clone this repository to your desktop.
-* For the simple map (Earthquake Map 1), navitage to the Leaflet-Step-1 directory and open index.html in your browser.
-* For the layerd map (Earthquake Map 2), navigate to the top level of the directory and open index.html in your browser.
+* Run the ETL.ipynb file.
 
 ### Data Sources
 
 ## Data Sources
-* "The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved [Insert Date Here], from https://github.com/nytimes/covid-19-data." (CSV) 
-* "County-level Data Sets." USDA Economic Research Service, US Department of Agriculture. Access date: Sept 8, 2021. URL: https://www.ers.usda.gov/data-products/county-level-data-sets/ (CSV file)
+* "The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved [Insert Date Here], from https://github.com/nytimes/covid-19-data."
+* "County-level Data Sets." USDA Economic Research Service, US Department of Agriculture. Access date: Sept 8, 2021. URL: https://www.ers.usda.gov/data-products/county-level-data-sets/
 * "USA Unemployment & Education Level" Kaggle.com. Access date: October 30, 2021. https://www.kaggle.com/valbauman/student-engagement-online-learning-supplement/version/3?select=unemployment.csv
 
 ## Authors
@@ -44,4 +45,7 @@ Katlin Bowman, PhD
 E: klbowman@ucsc.edu
 
 [LinkedIn](https://www.linkedin.com/in/katlin-bowman/)
+
+Andrew Wilson
+Michael Bradberry
 
