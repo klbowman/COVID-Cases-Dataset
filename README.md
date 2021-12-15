@@ -38,10 +38,8 @@ Cleaned and merged data was exported into three tables in a SQL database, shown 
 
 ## Authors
 
-Katlin Bowman, PhD
-
-E: klbowman@ucsc.edu
-
+Katlin Bowman, PhD  
+E: klbowman@ucsc.edu  
 [LinkedIn](https://www.linkedin.com/in/katlin-bowman/)
 
 Andrew Wilson
