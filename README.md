@@ -3,7 +3,7 @@
 ETL pipeline to clean, merge, and export data into a SQL database. 
 
 ## Description
-Datasets on COVID-19 positivity and death rates, education levels, and unemployment rates in the United States can be found as CSV files in the Resources folder. Data was cleaned and merged using Juptyer Notebook (ETL.ipynb): 
+Datasets on COVID-19 positivity and death rates, education levels, and unemployment rates in the United States can be found as CSV files in the Resources folder. Data was cleaned and merged using Juptyer Notebook (ETL.ipynb).
   -	Undesired columns of data were dropped from each dataset
   -	In the COVID-19 dataset:
     -	The “geoid” column in the COVID-19 dataset, which contained “USA-#####” values, was split on the “-” and data was stored in two new columns. The column containing “USA” values was dropped and the column containing numerical values was stored as “FIPS_Code.” The FIPS_Code column was used to merge with the other two datasets. 
