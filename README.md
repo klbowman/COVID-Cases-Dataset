@@ -32,9 +32,7 @@ Cleaned and merged data was exported into three tables in a SQL database, shown 
 * Run the ETL.ipynb file.
 
 ### Data Sources
-
-## Data Sources
-* "The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved [Insert Date Here], from https://github.com/nytimes/covid-19-data."
+* "The New York Times. (2021). Coronavirus (Covid-19) Data in the United States. Retrieved from https://github.com/nytimes/covid-19-data."
 * "County-level Data Sets." USDA Economic Research Service, US Department of Agriculture. Access date: Sept 8, 2021. URL: https://www.ers.usda.gov/data-products/county-level-data-sets/
 * "USA Unemployment & Education Level" Kaggle.com. Access date: October 30, 2021. https://www.kaggle.com/valbauman/student-engagement-online-learning-supplement/version/3?select=unemployment.csv
 
@@ -47,5 +45,5 @@ E: klbowman@ucsc.edu
 [LinkedIn](https://www.linkedin.com/in/katlin-bowman/)
 
 Andrew Wilson
-Michael Bradberry
 
+Michael Bradberry
